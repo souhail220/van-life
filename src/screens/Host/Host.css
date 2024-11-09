@@ -1,0 +1,102 @@
+.host-header{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.host-header > a {
+    text-decoration: none;
+    color: #161616;
+}
+
+.dashboard-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-details > a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: right;
+
+    color: #161616;
+}
+
+.welcome-dashboard {
+    padding: 35px;
+    background-color: #FFEAD0;
+}
+
+.dashboard-content > h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+}
+
+.dashboard-content > p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+}
+
+.dashboard-content > strong {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 38px;
+    text-align: left;
+}
+
+.reviewScore-dashboard {
+    padding: 5px 35px;
+    background-color: #FFDDB2;
+}
+
+.dashboard-review {
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-review > div {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    color: #FF8C38;
+}
+
+.host-dashboard-list {
+    padding: 5px 170px;
+}
+
+.host-dashboard-list-container {
+    padding: 15px;
+    margin: 15px auto;
+    background-color: white;
+}
+
+.host-dashboard-list-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.host-dashboard-list-items h3 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #333;
+}
+
+.host-dashboard-list-items p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}

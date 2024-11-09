@@ -1,0 +1,145 @@
+.van-container, .van-details {
+  padding: 45px 35px;
+  margin: 0;
+}
+
+.van-container > h1 {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+
+.van-container > header {
+  padding: 0 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.van-filter {
+  cursor: pointer;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffead0;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.vans-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 57px;
+}
+
+.van-box {
+  padding: 0 15px;
+}
+
+.van-box-img {
+  border-radius: 7px;
+}
+
+.van-box-title {
+  font-family: Avenir Next, serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+}
+
+.van-box-price {
+  font-family: Avenir Next, serif;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: right;
+}
+
+.van-type {
+  width: fit-content;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  color: white;
+}
+
+.rugged {
+ background-color: #115E59;
+}
+
+.luxury {
+  background-color: #E17654;
+}
+
+.simple {
+  background-color: black;
+}
+
+.backToVans{
+  padding: 0 35px;
+  text-decoration: underline;
+  color: #161616;
+}
+
+.van-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.van-details > img {
+  border-radius: 5px;
+  width: 50%;
+}
+
+.van-details-content {
+  width: 45%;
+}
+
+.van-details-content > p {
+  margin-top: 15px;
+}
+
+.van-details-content > .description {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.van-details-content > .price {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+
+.van-details-content > h1 {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+
+.van-details-content > button {
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF8C38;;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+
+}

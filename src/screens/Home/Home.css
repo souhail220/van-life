@@ -1,0 +1,66 @@
+.home-layout {
+  padding: 45px 35px;
+  margin: 0;
+}
+
+.header-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-nav > a {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: right;
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+.home-container {
+  margin: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
+    url("../../assets/image53.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 550px;
+  color: white;
+  padding: 105px 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-content {
+  width: 80%;
+}
+
+.home-content > h1 {
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 42px;
+}
+
+.home-content > p {
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.home-content > button {
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 10px;
+  width: 90%;
+  background-color: #ff8c38;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31.66px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
